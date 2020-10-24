@@ -1,8 +1,10 @@
-public static void main(string []args) {
-    addTwoNumbers(4, 5)
-}
-
-public addTwoNumbers(int a, int b) int {
-    return a + b - 10 + 100;
+class add
+{
+    public static void main(String[] args)
+    {
+        int num1=10;
+        int num2=20;
+        int result = num1+num2;
+        System.out.println("the sum of two numbers are: "+result); 
 }
 
