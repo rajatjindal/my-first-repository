@@ -1,8 +1,8 @@
-public static void main(string []args) {
-    addTwoNumbers(4, 5)
+Public class Main{
+Public static void main(String[] args){
+int a =10;
+int b =5;
+int result = a-b;
+System.out.println("subtraction of b from a is: " + result);
 }
-
-public addTwoNumbers(int a, int b) int {
-    return a + b - 10 + 100;
 }
-
