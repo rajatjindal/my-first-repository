@@ -1,5 +1,5 @@
 class Maths {
-     public static void main(String args[]) {
+    public static void main(String args[]) {
         System.out.println("Hello, World");
         int result = addtwonumbers(10, 20);
         System.out.println(result);
@@ -7,5 +7,10 @@ class Maths {
 
     public static int addtwonumbers(int a, int b) {
         return a + b;
+
+    }
+
+    public static int subtracttwonumbers(int a, int b) {
+        return a - b;
     }
 }
