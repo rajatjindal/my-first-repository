@@ -13,4 +13,13 @@ class Maths {
     public static int subtracttwonumbers(int a, int b) {
         return a - b;
     }
+
+    public static int productoftwonumbers(int a, int b) {
+        return a * b;
+    }
+
+    public static int divisionoftwonumbers(int a, int b) {
+        return a / b;
+    }
+
 }
