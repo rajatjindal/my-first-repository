@@ -16,12 +16,4 @@ class Calculator {
 	public static int subTwoNumbers(int a, int b) {
 		return a - b;
 	}
-
-	public static int multiplyTwoNumbers(int a, int b) {
-		return a * b;
-	}
-
-	public static int divideTwoNumbers(int a, int b) {
-		return a / b;
-	}
 }
