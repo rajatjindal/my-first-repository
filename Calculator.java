@@ -3,10 +3,15 @@ class Calculator {
 	public static void main(String[] args) {
 		System.out.println("hello world");
 		int result = addTwoNumbers(10, 20);
-		System.out.println(result);
+		int result1 = subTwoNumbers(20, 10);
+		System.out.println(result + "\n" + result1);
 	}
 
 	public static int addTwoNumbers(int a, int b) {
 		return a + b;
+	}
+
+	public static int subTwoNumbers(int a, int b) {
+		return a - b;
 	}
 }
