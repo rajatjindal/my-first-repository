@@ -5,7 +5,8 @@ class Calculator {
 		int result = addTwoNumbers(10, 20);
 		int result1 = subTwoNumbers(20, 10);
 		int result2 = multiplyTwoNumbers(2, 8);
-		System.out.println(result + "\n" + result1 + "\n" + result2);
+		int result3 = divideTwoNumbers(8, 2);
+		System.out.println(result + "\n" + result1 + "\n" + result2 + "\n" + result3);
 	}
 
 	public static int addTwoNumbers(int a, int b) {
@@ -18,5 +19,9 @@ class Calculator {
 
 	public static int multiplyTwoNumbers(int a, int b) {
 		return a * b;
+	}
+
+	public static int divideTwoNumbers(int a, int b) {
+		return a / b;
 	}
 }
