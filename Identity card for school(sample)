@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class Main{
+	public static void main(String[] args) {
+
+		String name,bloodGroup;
+		float age;
+
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter your Name");
+
+		name = scanner.nextLine();
+		System.out.println("Enter your age");
+		age = scanner.nextFloat();
+		System.out.println("Enter your bloodGroup");
+		Scanner scanner1 =new Scanner(System.in);
+		bloodGroup = scanner1.nextLine();
+
+		System.out.println("-------------------------------"+"\n" +
+				           " Name: " + name                 +"\n" +
+				            " Age: " + age                  +"\n" +
+		                    " Blood Group: " + bloodGroup  );
+		System.out.println("--------------------------------");
+
+		if (age>=20){
+			System.out.println(" Your group is RED");
+		}else if (age>=15){
+			System.out.println(" Your group is BLUE");
+		}else if(age>=10){
+			System.out.println(" Your group is YELLOW");
+		}else if(age<10){
+			System.out.println("Invalid no. " + "\n"+
+					"Age below the 10 has no any id and group please type greater than equal to 10"+"\n"+"Dhanyabaad");
+		}
+
+        System.out.println("--------------------------------");
+        scanner.close();
+	}
+}
